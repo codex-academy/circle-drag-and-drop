@@ -1,0 +1,72 @@
+body {
+    background-color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sources {
+    width: 8em;
+    flex: 1;
+    background-color: dodgerblue;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+.target {
+    flex: 4;
+    
+}
+
+.container {
+    display: flex;
+    height: 25em;
+    
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 1em;
+}
+
+.ball {
+    height: 5em;
+    width: 5em;
+    line-height: 5em;
+    font-weight: bold;
+    background-color: orange;
+    /* border: 1px solid; */
+    margin: 1em;
+    border-radius: 1em;
+    border-radius: 100%;
+    text-align: center;
+    /* padding-top: 2em; */
+    /* offset: 2em; */
+    float: left;
+}
+
+.sources {
+   
+}
+.source {
+    background-color: lightblue;
+}
+
+
+.instructions {
+    background-color: gainsboro;
+    padding: 1em;
+    margin: 1em;
+}
+.limitations {
+    display: flex;
+}
+
+input[type='text'] {
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.mt {
+    margin-top: 1em;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Circle drag & drop</h1>
+    <div class="instructions">
+        <i>
+            Limit the number of circles that can be dragged and dropped into the target area.
+            By the specifying the number of circles allowed to be in the target area and by specifying the max total sum
+            of numbers in the circles allowed.
+        </i>
+    </div>
+    <div class="limitations">
+        <div>
+            <label for="">Max number of circles allowed</label>
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <label for="">Highest sum allowed</label>
+            <input type="text" name="" id="">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sources">
+            <h2>Circles</h2>
+            <div draggable="true" class=" ball" id="1">
+                5
+            </div>
+            <div draggable="true" class=" ball" id="2">
+                14
+            </div>
+            <div draggable="true" class=" ball" id="3">
+                11
+            </div>
+            <div draggable="true" class=" ball" id="4">
+                5
+            </div>
+            <div draggable="true" class=" ball" id="5">
+                4
+            </div>
+            <div draggable="true" class=" ball" id="6">
+                1
+            </div>
+            <div draggable="true" class=" ball" id="7">
+                17
+            </div>
+        </div>
+        <div class="target">
+            <h2>Drag circles here</h2>
+            <div class="box dropzone" ondrop="drop(event)" ondragover="dragOver(event)">
+
+            </div>
+            <div class="mt">
+                <strong >Press Ctrl-R to restart</strong>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
